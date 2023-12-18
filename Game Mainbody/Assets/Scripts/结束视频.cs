@@ -3,23 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static SharedData;
 
-public class 跳出视频 : MonoBehaviour
+public class 结束视频 : MonoBehaviour
 {
     public float countTime = 0f;
     public GameObject videoLayer;
 
-    // 在 Update 函数中计时
     void Update()
     {
-        CountTime();
+        if (SharedData._month >= 20)
+        {
+            videoLayer.SetActive(true);
+            CountTime();
+            // 在 Update 函数中计时
+        }
     }
 
     // 计时函数
     void CountTime()
     {
         countTime += Time.deltaTime;
-        if (countTime > 33.55f)
+        if (countTime > 17.55f)
         {
             if (videoLayer != null)
             {
@@ -28,3 +33,4 @@ public class 跳出视频 : MonoBehaviour
         }
     }
 }
+

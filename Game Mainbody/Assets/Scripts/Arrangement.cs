@@ -89,7 +89,7 @@ public class Arrangement : MonoBehaviour
         a4_Text.text = "Finished!";
         SharedData.pressure = SharedData.pressure - 3;
         SharedData.emotion = SharedData.emotion - 2;
-        SharedData.energy = SharedData.energy - 2;
+        SharedData.energy = SharedData.energy - 1;
         SharedData._month = SharedData._month + 1;
         month_Text.text = SharedData._month.ToString();
         pressure_Text.text = SharedData.pressure.ToString();
