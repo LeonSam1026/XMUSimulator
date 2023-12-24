@@ -13,11 +13,6 @@ public class Arrangement : MonoBehaviour
     public Button a3_Button;
     public Button a4_Button;
 
-    public TextMeshProUGUI a1_Text;
-    public TextMeshProUGUI a2_Text;
-    public TextMeshProUGUI a3_Text;
-    public TextMeshProUGUI a4_Text;
-
     public TextMeshProUGUI money_Text;
     public TextMeshProUGUI month_Text;
     public TextMeshProUGUI pressure_Text;
@@ -36,7 +31,6 @@ public class Arrangement : MonoBehaviour
 
     public void ButtonClick1()
     {
-        a1_Text.text = "Finished!";
         SharedData.score = SharedData.score + 5;
         SharedData.pressure = SharedData.pressure + 2;
         SharedData.emotion = SharedData.emotion - 3;
@@ -56,7 +50,6 @@ public class Arrangement : MonoBehaviour
 
     public void ButtonClick2()
     {
-        a2_Text.text = "Finished!";
         SharedData.pressure = SharedData.pressure - 3;
         SharedData.emotion = SharedData.emotion + 3;
         SharedData.energy = SharedData.energy - 1;
@@ -73,7 +66,6 @@ public class Arrangement : MonoBehaviour
 
     public void ButtonClick3()
     {
-        a3_Text.text = "Finished!";
         SharedData.pressure = SharedData.pressure - 5;
         SharedData.emotion = SharedData.emotion + 5;
         SharedData.energy = SharedData.energy - 1;
@@ -89,7 +81,6 @@ public class Arrangement : MonoBehaviour
 
     public void ButtonClick4()
     {
-        a4_Text.text = "Finished!";
         SharedData.pressure = SharedData.pressure - 3;
         SharedData.emotion = SharedData.emotion - 2;
         SharedData.energy = SharedData.energy - 1;

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System;
+
 
 public class SharedData : MonoBehaviour
 {
@@ -14,19 +16,15 @@ public class SharedData : MonoBehaviour
     public static int fitness = 100;
     public static int score = 100;
     public static int energy = 10;
-
+    public static int friendship1 = 10;
+    public static int friendship2 = 10;
+    public static int love1 = 0;
+    public static int love2 = 0;
 }
+
 
 public class Parttime : MonoBehaviour
 {
-    public int _money = 500;
-    public int _month = 1;
-    public int pressure = 10;
-    public int emotion = 100;
-    public int fitness = 100;
-    public int score = 100;
-    public int energy = 10;
-
     public Button m1_Button;
     public Button m2_Button;
     public Button m3_Button;
@@ -50,7 +48,17 @@ public class Parttime : MonoBehaviour
         m2_Button.onClick.AddListener(NextOnClick2);
         m3_Button.onClick.AddListener(NextOnClick3);
         m4_Button.onClick.AddListener(NextOnClick4);
+
+        // 初始化数值
+        SharedData._money = int.Parse(money_Text.text);
+        SharedData._month = int.Parse(month_Text.text);
+        SharedData.pressure = int.Parse(pressure_Text.text);
+        SharedData.emotion = int.Parse(emotion_Text.text);
+        SharedData.fitness = int.Parse(fitness_Text.text);
+        SharedData.score = int.Parse(score_Text.text);
+        SharedData.energy = int.Parse(energy_Text.text);
     }
+
 
     public void NextOnClick1()
     {
