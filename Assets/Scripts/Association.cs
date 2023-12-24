@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class Association : MonoBehaviour
 {
     public Button m_Button;
-    public TextMeshProUGUI m_Text;
     public GameObject m_ThisPanel;
     public GameObject m_NextPanel;
     public Animator m_NextPanelAnimator;

@@ -61,6 +61,7 @@ public class Parttime : MonoBehaviour
         SharedData.pressure = SharedData.pressure + 5;
         SharedData.emotion = SharedData.emotion - 5;
         SharedData.fitness = SharedData.fitness + 5;
+        SharedData.score = SharedData.score - 20;
         money_Text.text = SharedData._money.ToString();
         month_Text.text = SharedData._month.ToString();
         pressure_Text.text = SharedData.pressure.ToString();
@@ -77,6 +78,7 @@ public class Parttime : MonoBehaviour
         SharedData.pressure = SharedData.pressure + 6;
         SharedData.emotion = SharedData.emotion - 6;
         SharedData.fitness = SharedData.fitness + 6;
+        SharedData.score = SharedData.score - 40;
         money_Text.text = SharedData._money.ToString();
         month_Text.text = SharedData._month.ToString();
         pressure_Text.text = SharedData.pressure.ToString();
@@ -93,6 +95,7 @@ public class Parttime : MonoBehaviour
         SharedData.pressure = SharedData.pressure + 7;
         SharedData.emotion = SharedData.emotion - 7;
         SharedData.fitness = SharedData.fitness + 7;
+        SharedData.score = SharedData.score - 80;
         money_Text.text = SharedData._money.ToString();
         month_Text.text = SharedData._month.ToString();
         pressure_Text.text = SharedData.pressure.ToString();
@@ -109,6 +112,7 @@ public class Parttime : MonoBehaviour
         SharedData.pressure = SharedData.pressure + 8;
         SharedData.emotion = SharedData.emotion - 8;
         SharedData.fitness = SharedData.fitness + 8;
+        SharedData.score = SharedData.score - 100;
         money_Text.text = SharedData._money.ToString();
         month_Text.text = SharedData._month.ToString();
         pressure_Text.text = SharedData.pressure.ToString();

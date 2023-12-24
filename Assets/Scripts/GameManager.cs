@@ -15,7 +15,9 @@ public class GameManager : MonoBehaviour
     public GameObject m_WholePanel;
     public GameObject m_NextPanel;
     public Animator m_NextPanelAnimator;
+    public Animator m_AchiveAnimator;
     public TextMeshProUGUI m_Text;
+    public TextMeshProUGUI achieve_Text;
 
     private int _playerScore;
     private int _computerScore;
@@ -36,6 +38,8 @@ public class GameManager : MonoBehaviour
             m_NextPanel.SetActive(true);
             m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
             m_Text.text = "The competition is over! You win! ";
+            achieve_Text.text = "Ping-pong winner";
+            m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
         }
         else if (_computerScore - _playerScore >= 3)
         {
@@ -66,6 +70,8 @@ public class GameManager : MonoBehaviour
             m_NextPanel.SetActive(true);
             m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
             m_Text.text = "The competition is over! You win! ";
+            achieve_Text.text = "Ping-pong winner";
+            m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
         }
         else if (_computerScore - _playerScore >= 3)
         {

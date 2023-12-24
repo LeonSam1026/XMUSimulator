@@ -50,7 +50,8 @@ public class Arrangement : MonoBehaviour
         score_Text.text = SharedData.score.ToString();
         emotion_Text.text = SharedData.emotion.ToString();
         fitness_Text.text = SharedData.fitness.ToString();
-        energy_Text.text = String.Format("{0}/10", SharedData.energy);
+        energy_Text.text = String.Format("{0}/100", SharedData.energy);
+        a1_Button.gameObject.SetActive(false);
     }
 
     public void ButtonClick2()
@@ -66,7 +67,8 @@ public class Arrangement : MonoBehaviour
         score_Text.text = SharedData.score.ToString();
         emotion_Text.text = SharedData.emotion.ToString();
         fitness_Text.text = SharedData.fitness.ToString();
-        energy_Text.text = String.Format("{0}/10", SharedData.energy);
+        energy_Text.text = String.Format("{0}/100", SharedData.energy);
+        a2_Button.gameObject.SetActive(false);
     }
 
     public void ButtonClick3()
@@ -81,7 +83,8 @@ public class Arrangement : MonoBehaviour
         score_Text.text = SharedData.score.ToString();
         emotion_Text.text = SharedData.emotion.ToString();
         fitness_Text.text = SharedData.fitness.ToString();
-        energy_Text.text = String.Format("{0}/10", SharedData.energy);
+        energy_Text.text = String.Format("{0}/100", SharedData.energy);
+        a3_Button.gameObject.SetActive(false);
     }
 
     public void ButtonClick4()
@@ -96,6 +99,7 @@ public class Arrangement : MonoBehaviour
         score_Text.text = SharedData.score.ToString();
         emotion_Text.text = SharedData.emotion.ToString();
         fitness_Text.text = SharedData.fitness.ToString();
-        energy_Text.text = String.Format("{0}/10", SharedData.energy);
+        energy_Text.text = String.Format("{0}/100", SharedData.energy);
+        a4_Button.gameObject.SetActive(false);
     }
 }

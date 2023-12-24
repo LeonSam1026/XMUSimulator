@@ -12,13 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-<<<<<<< HEAD:ProjectSettings/ProjectSettings.asset
   companyName: "\u5C0F\u72D7\u4E07\u5C81\u961F"
   productName: "\u6821\u56ED\u6A21\u62DF\u5668Demo"
-=======
-  companyName: DefaultCompany
-  productName: "\u8349\u7A3F1023"
->>>>>>> parent of 86d2015 (Update 12/23):Game Mainbody/ProjectSettings/ProjectSettings.asset
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -856,11 +851,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-<<<<<<< HEAD:ProjectSettings/ProjectSettings.asset
   cloudProjectId: 
-=======
-  cloudProjectId: 861a960a-083b-4c6e-a820-e0ea3319c345
->>>>>>> parent of 86d2015 (Update 12/23):Game Mainbody/ProjectSettings/ProjectSettings.asset
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: 

@@ -16,9 +16,11 @@ public class CompetitionQuestion : MonoBehaviour
     public TextMeshProUGUI a2_Text;
     public TextMeshProUGUI a3_Text;
     public TextMeshProUGUI result_Text;
+    public TextMeshProUGUI achieve_Text;
     public GameObject m_WholePanel;
     public GameObject m_Letter;
     public Animator m_NextPanelAnimator;
+    public Animator m_AchiveAnimator;
     public int flag = 0;
     public int num = 0;
 
@@ -33,7 +35,7 @@ public class CompetitionQuestion : MonoBehaviour
     {
         if (flag == 0)
         {
-            q_Text.text = "5x - 4 = 2(2x - 3) \n x = ?";
+            q_Text.text = "5x - 4 = 2(2x + 3) \n x = ?";
             a1_Text.text = "x = 10";
             a2_Text.text = "x = 12";
             a3_Text.text = "x = 16";
@@ -67,25 +69,33 @@ public class CompetitionQuestion : MonoBehaviour
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("First Prize");
+                achieve_Text.text = ("First Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if(num ==3)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Second Prize");
+                achieve_Text.text = ("Second Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 2)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Third Prize");
+                achieve_Text.text = ("Third Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 1)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Participation Award");
+                achieve_Text.text = ("Participation Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 0)
             {
@@ -103,7 +113,7 @@ public class CompetitionQuestion : MonoBehaviour
     {
         if (flag == 0)
         {
-            q_Text.text = "5x - 4 = 2(2x - 3) \n x = ?";
+            q_Text.text = "5x - 4 = 2(2x + 3) \n x = ?";
             a1_Text.text = "x = 10";
             a2_Text.text = "x = 12";
             a3_Text.text = "x = 16";
@@ -136,25 +146,33 @@ public class CompetitionQuestion : MonoBehaviour
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("First Prize");
+                achieve_Text.text = ("First Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 3)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Second Prize");
+                achieve_Text.text = ("Second Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 2)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Third Prize");
+                achieve_Text.text = ("Third Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 1)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Participation Award");
+                achieve_Text.text = ("Participation Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 0)
             {
@@ -172,7 +190,7 @@ public class CompetitionQuestion : MonoBehaviour
     {
         if (flag == 0)
         {
-            q_Text.text = "5x - 4 = 2(2x - 3) \n x = ?";
+            q_Text.text = "5x - 4 = 2(2x + 3) \n x = ?";
             a1_Text.text = "x = 10";
             a2_Text.text = "x = 12";
             a3_Text.text = "x = 16";
@@ -205,25 +223,33 @@ public class CompetitionQuestion : MonoBehaviour
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("First Prize");
+                achieve_Text.text = ("First Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 3)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Second Prize");
+                achieve_Text.text = ("Second Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 2)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Third Prize");
+                achieve_Text.text = ("Third Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 1)
             {
                 m_Letter.SetActive(true);
                 result_Text.text = ("Participation Award");
+                achieve_Text.text = ("Participation Prize");
                 m_NextPanelAnimator.Play("DataMenu_show"); // 播放 Show 动画
+                m_AchiveAnimator.Play("Achive_show"); // 播放 Show 动画
             }
             else if (num == 0)
             {
