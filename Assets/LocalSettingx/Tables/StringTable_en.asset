@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 401ebe114357b304d925d6b9cb63b31e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 28325191680
+    m_Localized: You wanna be called
+    m_Metadata:
+      m_Items: []
+  - m_Id: 884114202624
+    m_Localized: How tall do you wanna be?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916334845952
+    m_Localized: When is your birthday?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 943035785216
+    m_Localized: How old do you wanna be?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514815672983552
+    m_Localized: Week
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515136734371840
+    m_Localized: Money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515177452675072
+    m_Localized: Energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515372361981952
+    m_Localized: Pressure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515479237042176
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515588083425280
+    m_Localized: Fitness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515701371576320
+    m_Localized: Achivement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515791708495872
+    m_Localized: Bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515875351306240
+    m_Localized: Campaign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515999309766656
+    m_Localized: Association
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516112597917696
+    m_Localized: Sports meeting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516205434642432
+    m_Localized: Competition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516328898174976
+    m_Localized: Part-time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516433416036352
+    m_Localized: Arrangement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516517667020800
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516598365429760
+    m_Localized: Student Card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516746361446400
+    m_Localized: Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516763302240256
+    m_Localized: Age
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516789185290240
+    m_Localized: Height
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516909486317568
+    m_Localized: Birthday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517143272628224
+    m_Localized: We are starting to run for students cadres! I'm still a little nervous,
+      please try your best next! Good luck to you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517471602745344
+    m_Localized: Please choose the most appropriate one based on your understanding!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517657645293568
+    m_Localized: What do you want to gain from serving as a student leader?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517753304784896
+    m_Localized: What would you do if you failed the election this time?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517770954416128
+    m_Localized: How could you balance learning and work?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518517133680640
+    m_Localized: The annual association recruitment has begun! Which association
+      are you interested in?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518941555302400
+    m_Localized: Volunteer Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518886060466176
+    m_Localized: Sports Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518962556182528
+    m_Localized: Technology Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 519238830792704
+    m_Localized: Uninterested
+    m_Metadata:
+      m_Items: []
+  - m_Id: 519408561692672
+    m_Localized: 'The interview has started!
+
+      May I ask what are your strengths
+      or hobbies in sports?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 519821579001856
+    m_Localized: What would you do if you failed the election this time?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 520049908523008
+    m_Localized: How could you balance learning and work?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 520137250709504
+    m_Localized: 'Employment Letter
+
+      Hello classmate:
+
+      Congratulations!
+      After the interview, you have been successfuly selected. I am sending out this
+      employment letter to wish you success in your work and progress in your studies!
+
+      Club
+      Leader
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521264893534208
+    m_Localized: The table tennis match has started! It's Zihan playing against you!
+      Please control the racket to catch the ball!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521611183661056
+    m_Localized: The competition is over! You win!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521838422663168
+    m_Localized: The competition is over! You lose!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521932710617088
+    m_Localized: The annual math conpetition has begun! Please carefully calculate
+      the follwing questions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521991229546496
+    m_Localized: Go to the teaching building
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522026411368448
+    m_Localized: Go to the canteen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522737073266688
+    m_Localized: Go back to the dormitory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522738117648384
+    m_Localized: Go to the playground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523186635546624
+    m_Localized: Emotion
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
