@@ -1,2 +1,2 @@
 # XMUSimulator
-A team project which is still under building...
+This is a group project that originated from the interaction design course.
